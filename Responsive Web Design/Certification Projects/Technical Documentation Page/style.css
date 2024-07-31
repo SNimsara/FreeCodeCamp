@@ -1,0 +1,40 @@
+#navbar{
+   position: fixed;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+body{
+padding-left: 300px;
+}
+
+#navbar ul {
+    height: 100%;
+    padding: 0;
+    font-size: 20px;
+    
+}
+
+#navbar li{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 0px solid black;
+  border-top: 2px solid black;
+}
+
+#navbar a {
+    display: block;
+    cursor: pointer;
+    color: gray;
+    text-decoration: none;
+}@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    #navbar ul {
+        border: 1px solid;
+        height: 207px;
+    }
